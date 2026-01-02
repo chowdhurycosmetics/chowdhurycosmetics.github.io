@@ -60,9 +60,14 @@ section {
     margin: 15px 0 8px;
 }
 
+.product a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .buttons {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .buttons a {
@@ -85,6 +90,14 @@ section {
     background-color: #6b7f3a;
 }
 
+footer {
+    background-color: #0a2a66;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
 /* MOBILE */
 @media (max-width: 600px) {
     header h1 {
@@ -96,14 +109,6 @@ section {
     .product img {
         height: 200px;
     }
-}
-
-footer {
-    background-color: #0a2a66;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    margin-top: 50px;
 }
 </style>
 </head>
@@ -118,30 +123,29 @@ footer {
 <section>
     <h2>Our Skincare Products</h2>
 
+    <!-- PRODUCT LIST -->
     <div class="products">
-        <div class="product">
-            <img src="product1.jpg" alt="Hydrating Face Cream">
-            <h3>Hydrating Face Cream</h3>
-            <p>Deep moisture for glowing skin.</p>
-        </div>
 
         <div class="product">
-            <img src="product2.jpg" alt="Brightening Serum">
-            <h3>Brightening Serum</h3>
-            <p>Enhances natural radiance.</p>
+            <a href="missha-sun-milk.html">
+                <img src="missha-sun-milk.jpg" alt="Missha Sun Milk">
+                <h3>Missha All Around Safe Block Soft Finish Sun Milk SPF50+/PA+++ 70ml</h3>
+                <p>Lightweight sunscreen with soft matte finish.</p>
+            </a>
         </div>
 
-        <div class="product">
-            <img src="product3.jpg" alt="Gentle Cleanser">
-            <h3>Gentle Cleanser</h3>
-            <p>Cleans without stripping skin.</p>
-        </div>
     </div>
 
+    <!-- TRUST & DELIVERY -->
     <p style="text-align:center; font-weight:600; margin-top:30px;">
         100% Authentic Products With Guarantee. Imported Products from overseas.
     </p>
 
+    <p style="text-align:center; font-weight:600; margin-top:15px;">
+        🚚 Cash on Delivery Available All Over Bangladesh
+    </p>
+
+    <!-- ORDER BUTTONS -->
     <div class="buttons">
         <a href="https://wa.me/+8801836193159" target="_blank">
             📲 Order via WhatsApp
@@ -150,6 +154,15 @@ footer {
             💬 Order via Messenger
         </a>
     </div>
+</section>
+
+<!-- FOLLOW US -->
+<section style="text-align:center;">
+    <h3>Follow Us</h3>
+    <p>
+        <a href="https://www.facebook.com/chowdhurycosmetics" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/chowdhurycosmetics?igsh=MWJ5eDkxNnptN2xrMw==" target="_blank">Instagram</a>
+    </p>
 </section>
 
 <footer>
